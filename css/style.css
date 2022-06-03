@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: "raisonne";
+    src: url(/fonts/Raisonne_DemiBold.ttf);
+}
+@font-face {
+    font-family: "sprat";
+    src: url(/fonts/Sprat_Variable.ttf);
+}
+.raisonne {
+    font-family: "raisonne";
+}
+.sprat {
+    font-family: "sprat";
+}
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+.playfair {
+    font-family: 'Playfair Display', serif;
+}
+
+:root {
+    --bg-1: #071013;
+    --bg-2: #14161A;
+    --tooltip: #202020;
+    --text: #F0F0F0;
+    --hr: #A8A8A850;
+    --hover: #13141830;
+    --overlay: #13141890;
+    --text-hover: #bababa;
+    --desc: #E0E0E0;
+    --skeleton: #e4e6eb;
+    --form-shadow-color: #ffffff30;
+
+    --fs-100: 100px;
+    --fs-email: 60px;
+    --fs-proj: 45px;
+    --fs-title: 40px;
+    --fs-contact: 30px;
+    --fs-logo: 22px;
+    --fs-md: 20px;
+    --fs-sm: 18px;
+    --fs-nav: 16px;
+}
+
+
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+/* CUSTOM SCROLLBAR */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: var(--bg-2);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--text);
+}
+::selection{
+    background: var(--text-hover);
+}
+
+a {
+    text-decoration: none;
+}
+hr {
+    border-top: 2px solid var(--text);
+}
+.arrow {
+    color: var(--text);
+    margin-left: 5px;
+    transition: all ease-in-out 300ms;
+}
+
+.custom-tooltip {
+    font-family: "sprat";
+    --bs-tooltip-padding-x: 8px;
+    --bs-tooltip-padding-y: 8px;
+    --bs-tooltip-color: var(--bg-1);
+    --bs-tooltip-bg: var(--text);
+}
+
+.custom-tooltip-sticky {
+    font-family: "sprat";
+    --bs-tooltip-padding-x: 8px;
+    --bs-tooltip-padding-y: 8px;
+    --bs-tooltip-color: var(--text);
+    --bs-tooltip-bg: var(--tooltip);
+}
+
+@media only screen and (max-device-width: 360px) {
+    /* styles for mobile browsers smaller than 360px; */
+
+}
+
+@media only screen and (max-device-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; */
+
+}
+
+@media only screen and (max-device-width: 768px) {
+    /* styles for mobile browsers smaller than 768px; */
+
+}
+
+@media only screen and (min-width: 960px) {
+     /* styles for browsers larger than 960px; */
+
+}
+
+@media only screen and (min-width: 1200px) {
+     /* styles for browsers larger than 1200px; */
+    
+}

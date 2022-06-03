@@ -1,0 +1,127 @@
+.projects-banner {
+    max-width: 2560px;
+    background-color: var(--bg-1);
+    min-height: 100vh;
+}
+.projects-heading {
+    color: var(--text);
+    font-size: var(--fs-100);
+}
+.projects-col {
+    height: 320px;
+}
+.projects-desc-col {
+    position: relative;
+}
+.projects-img-container {
+    width: 100%;
+    height: 100%;
+}
+.projects-img-container img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.projects-title {
+    color: var(--text);
+    font-size: var(--fs-title);
+    font-weight: bolder;
+}
+.projects-date {
+    color: var(--text);
+    font-size: var(--fs-sm);
+    font-weight: bold;
+}
+.projects-description-container {
+    position: relative;
+}
+.projects-description {
+    color: var(--desc);
+    font-size: var(--fs-sm);
+}
+.projects-link {
+    color: var(--text);
+    font-size: var(--fs-nav);
+    position: absolute;
+    bottom: 0;
+    transition: all ease-in-out 300ms;
+}
+.projects-link::after {
+    content: '';
+    display: block;
+    height: 1.5px;
+    background: var(--text-hover);
+    transform: scaleX(0);
+    transition: transform .3s;
+}
+.projects-link:hover::after {
+    transform: scaleX(1);
+    transition: transform .3s;
+}
+.projects-link:hover {
+    color: var(--text-hover);
+}
+.projects-link:hover i{
+    color: var(--text-hover);
+    margin-left: 10px;
+}
+
+
+/* skeleton */
+.projects-col .img {
+    height: 100%;
+    width: 100%;
+    background-color: var(--skeleton);
+}
+.projects-col .title-skeleton{
+    height: var(--fs-title);
+    width: 200px;
+    background-color: var(--skeleton);
+}
+.projects-col .date-skeleton{
+    height: var(--fs-sm);
+    width: 80px;
+    background-color: var(--skeleton);
+}
+.projects-col .description-skeleton {
+    height: var(--fs-sm);
+    width: 100%;
+    background-color: var(--skeleton);
+}
+.projects-col .skel-6 {
+    width: 50%;
+}
+.projects-col .link-skeleton {
+    height: var(--fs-nav);
+    width: 20%;
+    background-color: var(--skeleton);
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+@media only screen and (max-device-width: 360px) {
+    /* styles for mobile browsers smaller than 360px; */
+
+}
+
+@media only screen and (max-device-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; */
+
+}
+
+@media only screen and (max-device-width: 768px) {
+    /* styles for mobile browsers smaller than 768px; */
+
+}
+
+@media only screen and (min-width: 960px) {
+     /* styles for browsers larger than 960px; */
+
+}
+
+@media only screen and (min-width: 1200px) {
+     /* styles for browsers larger than 1200px; */
+    
+}
