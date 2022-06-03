@@ -101,27 +101,78 @@
 
 
 
-@media only screen and (max-device-width: 360px) {
-    /* styles for mobile browsers smaller than 360px; */
 
+@media only screen and (min-width: 960px) {
+    /* styles for browsers larger than 960px; */
+    .projects-heading {
+        font-size: 80px;
+    }
+    .projects-title {
+        font-size: 30px;
+    }
+    .projects-col {
+        height: 200px;
+    }
+    .projects-desc-col {
+        height: 200px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+     /* styles for browsers larger than 1200px; */
+    .projects-title {
+        font-size: var(--fs-title);
+    }
+}
+@media only screen and (min-device-width: 768px) {
+    /* styles for browsers larger than 768px; */
+    .projects-col {
+        height: 360px;
+    }
+}
+@media only screen and (max-device-width: 768px) {
+    /* styles for mobile browsers smaller than 768px; */
+    .projects-heading {
+        font-size: 80px;
+    }
+    .projects-title {
+        font-size: 30px;
+    }
+    .projects-description {
+        font-size: 18px;
+    }
+    .projects-desc-col {
+        height: 260px;
+    }
 }
 
 @media only screen and (max-device-width: 480px) {
     /* styles for mobile browsers smaller than 480px; */
-
+    .projects-heading {
+        font-size: 50px;
+    }
+    .projects-title {
+        font-size: 25px;
+    }
+    .projects-description {
+        font-size: 16px;
+    }
+    .projects-col {
+        height: 200px;
+    }
+    .projects-desc-col {
+        height: 250px;
+    }
 }
 
-@media only screen and (max-device-width: 768px) {
-    /* styles for mobile browsers smaller than 768px; */
 
+@media only screen and (max-device-width: 360px) {
+    /* styles for mobile browsers smaller than 360px; */
+    .projects-col {
+        height: 150px;
+    }
+    .projects-desc-col {
+        height: 280px;
+    }
 }
 
-@media only screen and (min-width: 960px) {
-     /* styles for browsers larger than 960px; */
 
-}
-
-@media only screen and (min-width: 1200px) {
-     /* styles for browsers larger than 1200px; */
-    
-}

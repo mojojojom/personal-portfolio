@@ -2,6 +2,7 @@
 .banner-wrapper {
     max-width: 2560px;
     height: 100vh;
+    min-height: 100vh;
     background-color: var(--bg-2);
 }
 .banner-container {
