@@ -3,6 +3,7 @@
     color: var(--text);
     padding: 2em 0;
     border-top: 0.5px solid var(--hr);
+    max-width: 2560px;
 }
 .footer-wrapper .copyright a{
     color: var(--text);

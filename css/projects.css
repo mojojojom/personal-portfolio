@@ -143,6 +143,9 @@
     .projects-desc-col {
         height: 260px;
     }
+    .skel-container {
+        height: 300px;
+    }
 }
 
 @media only screen and (max-device-width: 480px) {
@@ -161,6 +164,9 @@
     }
     .projects-desc-col {
         height: 250px;
+    }
+    .skel-container {
+        height: 300px;
     }
 }
 

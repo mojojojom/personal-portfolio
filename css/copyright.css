@@ -1,6 +1,7 @@
 .copyright-wrapper {
     background-color: #0a0a0a;
     padding: 0.5em 0;
+    max-width: 2560px;
 }
 .copyright {
     font-size: 12px;

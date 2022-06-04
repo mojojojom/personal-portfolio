@@ -109,7 +109,7 @@ input[type="color"]:focus,
 @media only screen and (max-device-width: 768px) {
     /* styles for mobile browsers smaller than 768px; */
     .contacts-title {
-        font-size: 80px;
+        font-size: 30px;
     }
     .contacts-name {
         font-size: 20px;
@@ -122,13 +122,19 @@ input[type="color"]:focus,
 @media only screen and (max-device-width: 480px) {
     /* styles for mobile browsers smaller than 480px; */
     .contacts-title {
-        font-size: 50px;
+        font-size: 40px;
     }
     .contacts-name {
         font-size: 18px;
     }
     .contacts-social-links {
         font-size: 18px;
+    }
+    .contacts-sub {
+        font-size: 16px;
+    }
+    .contacts-connect {
+        font-size: 25px;
     }
 }
 @media only screen and (max-device-width: 360px) {

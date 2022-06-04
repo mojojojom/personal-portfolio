@@ -29,11 +29,21 @@
     --hr: #A8A8A850;
     --hover: #13141830;
     --overlay: #13141890;
+    --overlay-2: #131418cd;
     --text-hover: #bababa;
     --desc: #E0E0E0;
     --skeleton: #e4e6eb;
     --form-shadow-color: #ffffff30;
 
+    /* --fs-100: 6.25em;
+    --fs-email: 3.75em;
+    --fs-proj: 2.8125em;
+    --fs-title: 2.5em;
+    --fs-contact: 1.875em;
+    --fs-logo: 1.375em;
+    --fs-md: 1.25em;
+    --fs-sm: 1.125em;
+    --fs-nav: 1em; */
     --fs-100: 100px;
     --fs-email: 60px;
     --fs-proj: 45px;
@@ -119,7 +129,15 @@ hr {
 
 @media only screen and (max-device-width: 768px) {
     /* styles for mobile browsers smaller than 768px; */
-
+    #header-navbar {
+        background-color: var(--bg-1);
+    }
+    #header-navbar .nav-hr {
+        border-bottom: 0;
+    }
+    .banner-title {
+        margin-top: 10px;
+    }
 }
 
 @media only screen and (min-width: 960px) {

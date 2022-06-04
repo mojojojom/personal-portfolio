@@ -72,7 +72,12 @@
                 <div class="row pt-3 pt-sm-3 pt-md-3 pt-lg-5">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-6 single-col order-1 order-sm-1 order-md-1 order-lg-1">
                         <div class="single-img-container">
-                            <img src="/images/callees.jpg" alt="">
+                            <a href="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal" >
+                                <div class="modal-overlay"></div>
+                                <p class="single-text-overlay raisonne h-100 w-100 m-0 d-flex justify-content-center align-items-center">click to view full image</p>
+                                <img src="/images/callees.jpg" alt="">
+                                <!-- <img src="/images/callees.jpg" alt="" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="click to view full image"> -->
+                            </a>
                         </div>
                     </div>
 
@@ -122,6 +127,19 @@
                         </div>
                     </div>
 
+                </div>
+            </div>
+        </div>
+
+
+        <!-- MODAL -->   
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <img src="/images/callees-full.jpeg" alt="" class="modal-img">
                 </div>
             </div>
         </div>
