@@ -53,6 +53,18 @@
     color: var(--text);
     font-size: var(--fs-contact);
     font-weight: bold;
+    position: relative;
+    display: flex;
+    display: inline-flex;
+}
+.single-stacks-title::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    height: 3px;
+    width: 30%;
+    background-color: var(--text);
 }
 .left-badge,
 .right-badge {
@@ -74,10 +86,15 @@
     color: var(--desc);
     font-size: var(--fs-nav);
 }
+
+
+
 .single-btn {
     color: var(--desc);
     font-size: var(--fs-nav);
     transition: all ease-in-out 300ms;
+    position: absolute;
+    bottom: 0;
 }
 .single-btn:hover {
     color: var(--text-hover);
@@ -98,6 +115,28 @@
     transition: transform .3s;
 }
 
+
+
+.features-box {
+    padding: 10px 0;
+}
+.features-box .features-num,
+.features-box .features-title{
+    font-size: var(--fs-nav);
+    border: 1px solid var(--tooltip);
+}
+.features-box .features-num{
+    padding: 10px 10px;
+    color: var(--text);
+    font-weight: bolder;
+    background-color: var(--tooltip);
+}
+.features-box .features-title {
+    padding: 10px 5px;
+    color: var(--bg-1);
+    font-weight: bold;
+    background-color: var(--text);
+}
 
 /* MODAL */
 .modal-img {
