@@ -442,6 +442,15 @@
     height: 100%;
     width: 100%;
     padding: 10px;
+    transition: all ease 300ms;
+    transform-origin: 50% 50%;
+    transition: transform 300ms, filter 300ms ease-in-out;
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+.about-stack-container img:hover {
+    transform: scale(1.1);
+    filter: grayscale(0);
 }
 
 
