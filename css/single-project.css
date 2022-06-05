@@ -140,7 +140,10 @@
 
 /* MODAL */
 .modal-img {
-    border-radius: 0.5rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+.modal-content {
+    border: none;
 }
 
 

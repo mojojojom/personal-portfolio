@@ -5,6 +5,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This is my personal portfolio where I showcase my projects.">
+        <meta name="keywords" content="portfolio, website, web design">
         <title>Jom Dalisaymo - Web Developer</title>
         <!-- FAVICONS -->
         <link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-touch-icon.png">
@@ -32,12 +34,9 @@
 
             <div class="container py-3 d-flex" id="navbar-container">
                 <a href="#" class="navbar-logo raisonne">jom d.</a>
-                
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
 
-                <div class="justify-content-end collapse navbar-collapse" id="navbarResponsive">
+                <!-- LARGE BROWSER NAV -->
+                <div class="justify-content-end header-menu d-none d-sm-none d-md-none d-lg-flex">
                     <ul class="navbar-nav ms-auto header-nav">
                         <li class="nav-item mx-3">
                             <a class="nav-link raisonne" href="/index.html">home</a>
@@ -54,8 +53,50 @@
                     </ul>
                 </div>
 
-            </div>
+                <!-- MOBILE BROWSER NAV -->
+                <div class="mobile-nav-menu d-block d-sm-block d-md-block d-lg-none" id="nav-menu">
 
+                    <div class="mobile-close-container d-flex w-100 justify-content-end px-0" id="nav-close">
+                        <img src="/images/icons/close-window.svg" alt="" class="mobile-close">
+                    </div>
+                    
+                    <ul class="mobile-nav-list list-unstyled px-0 pt-3">
+                        <li class="mobile-nav-item">
+                            <a href="/index.html" class="mobile-nav-link raisonne">home</a>
+                        </li>
+                        <li class="mobile-nav-item">
+                            <a href="/about.html" class="mobile-nav-link">about</a>
+                        </li>
+                        <li class="mobile-nav-item">
+                            <a href="/project.html" class="mobile-nav-link">projects</a>
+                        </li>
+                        <li class="mobile-nav-item">
+                            <a href="/contact.html" class="mobile-nav-link">contact me</a>
+                        </li>
+                    </ul>
+
+                    <ul class="list-unstyled position-absolute bottom-0 w-100 d-flex">
+                        <li class="banner-mobile nav-sm">
+                            <a href="https://www.instagram.com/mojijooom/" target="_blank" class="poppins text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="Follow me on Instagram">ig</a>
+                        </li>
+                        <li class="banner-mobile nav-sm">
+                            <a href="https://www.facebook.com/jom.dalisaymo.10" target="_blank" class="poppins text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="Follow me on Facebook">fb</a>
+                        </li>
+                        <li class="banner-mobile nav-sm">
+                            <a href="https://github.com/mojojojom" target="_blank" class="poppins text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="Follow me on GitHub">gh</a>
+                        </li>
+                        <li class="banner-mobile nav-sm">
+                            <a href="https://www.linkedin.com/in/jommel-dalisaymo-94b21414b" target="_blank" class="poppins text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="Follow me on LinkedIn">in</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="mobile-nav-toggle d-flex d-sm-flex d-md-flex d-lg-none" id="nav-toggle">
+                    <img src="/images/icons/category.svg" alt="" class="mobile-icon">
+                </div>
+
+            </div>
         </div>
 
         <!-- CONTACT BANNER -->
@@ -128,7 +169,7 @@
             <div class="container">
                 <div class="text-center">
                     <div class="footer-copyright-container">
-                        <p class="copyright poppins">© 2022 <a href="#" class="raisonne">jom d.</a> All Rights Reserved.</p>
+                        <p class="copyright poppins">© 2022 <a href="https://jomdalisaymo.netlify.app" class="raisonne">jom d.</a> All Rights Reserved.</p>
                     </div>
                     <div class="footer-sm-container">
                         <a href="https://www.instagram.com/mojijooom/" target="_blank" class="poppins text-decoration-none mx-2" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="Follow me on Instagram">ig</a>

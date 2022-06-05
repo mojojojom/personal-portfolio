@@ -117,35 +117,91 @@ hr {
     --bs-tooltip-bg: var(--tooltip);
 }
 
-@media only screen and (max-device-width: 360px) {
-    /* styles for mobile browsers smaller than 360px; */
 
+/* PAGE NOT FOUND */
+.pnf-wrapper {
+    min-height: 100vh;
+    max-width: 2560px;
+    background-color: var(--bg-1);
+}
+.pnf-container {
+    width: 100%;
+    padding-top: 6em;
+}
+.pnf-img-container {
+    width: 100%;
+    height: 300px;
+}
+.pnf-img {
+    height: 100%;
+    width: 100%;
+}
+.pnf-title {
+    color: var(--text);
+    font-size: var(--fs-100);
+}
+.pnf-sub {
+    color: var(--text);
+    font-size: var(--fs-sm);
+    padding-top: -10px;
+    width: 50%;
+}
+.pnf-btn {
+    color: var(--text);
+    font-size: var(--fs-sm);
+    border: 1px solid var(--text);
+    border-radius: 5px;
+    padding: 5px 20px;
+    transition: all ease-in-out 300ms;
+}
+.pnf-btn:hover {
+    color: var(--bg-1);
+    background-color: var(--text);
 }
 
-@media only screen and (max-device-width: 480px) {
-    /* styles for mobile browsers smaller than 480px; */
-
-}
-
-@media only screen and (max-device-width: 768px) {
-    /* styles for mobile browsers smaller than 768px; */
-    /* #header-navbar {
-        background-color: var(--bg-1);
-    } */
-    #header-navbar .nav-hr {
-        border-bottom: 0;
-    }
-    .banner-title {
-        margin-top: 10px;
-    }
-}
-
-@media only screen and (min-width: 960px) {
-     /* styles for browsers larger than 960px; */
-
-}
 
 @media only screen and (min-width: 1200px) {
-     /* styles for browsers larger than 1200px; */
+    /* styles for browsers larger than 1200px; */
     
+}   
+@media only screen and (min-width: 960px) {
+    /* styles for browsers larger than 960px; */
+
 }
+@media only screen and (max-device-width: 768px) {
+    /* styles for mobile browsers smaller than 768px; */
+    .pnf-container {
+        padding-top: 4em;
+    }
+    .pnf-title {
+        font-size: var(--fs-email);
+    }
+    .pnf-sub {
+        width: 80%;
+        font-size: var(--fs-nav);
+    }
+}
+@media only screen and (max-device-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; */
+    .pnf-container {
+        padding-top: 3em;
+    }
+    .pnf-title {
+        font-size: var(--fs-proj);
+    }
+    .pnf-sub {
+        width: 100%;
+    }
+}
+@media only screen and (max-device-width: 360px) {
+    /* styles for mobile browsers smaller than 360px; */
+    .pnf-container {
+        padding-top: 2em;
+    }
+    .pnf-title {
+        font-size: var(--fs-contact);
+    }
+}
+
+
+

@@ -1,12 +1,6 @@
 /* BANNER WRAPPER */
 .banner-wrapper {
     max-width: 2560px;
-    /* height: 100vh;
-    min-height: 100vh;
-    overflow-x: hidden;
-    background: url(/images/banner.png);
-    background-repeat: no-repeat;
-    background-size: cover; */
     height: 100vh;
     min-height: 100vh;
     background: url(/images/banner-mobile.png);
@@ -19,6 +13,12 @@
     position: relative;
     max-width: 2560px;
 }
+/* .banner-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 400px;
+} */
 .banner-title {
     color: var(--text);
     font-size: var(--fs-100);
@@ -657,15 +657,25 @@
     /* styles for mobile browsers smaller than 768px; */
     .banner-wrapper {
         height: 100vh;
-        background: url(/images/banner-mobile.png);
+        background: url(/images/mobile-bg.png);
         background-repeat: no-repeat;
         background-position-x: center;
-        background-position-y: center;
+        background-position-y: top;
         background-size: cover;
+    }
+    
+    .banner-title {
+        margin-top: 10px;
     }
     .banner-title {
         font-size: 60px;
     }
+    /* .banner-img {
+        position: absolute;
+        bottom: -14px;
+        left: 0;
+        height: 400px;
+    } */
     .about-title {
         font-size: 30px;
     }
@@ -704,7 +714,7 @@
     /* styles for mobile browsers smaller than 480px; */
     .banner-wrapper {
         height: 100vh;
-        background: url(/images/banner-mobile.png);
+        background: url(/images/mobile-bg.png);
         background-repeat: no-repeat;
         background-position-x: center;
         background-position-y: center;
@@ -717,6 +727,12 @@
         height: 400px;
         z-index: 5;
     }
+    /* .banner-img {
+        position: absolute;
+        bottom: -8px;
+        left: 0;
+        height: 250px;
+    } */
     .about-title {
         font-size: 20px;
     }
@@ -735,6 +751,9 @@
     }
     .skill-container {
         width: 100%;
+    }
+    .skill-desc {
+        font-size: 16px;
     }
     .project-title {
         font-size: 20px;
@@ -769,6 +788,12 @@
     .banner-title {
         font-size: 35px;
     }
+    /* .banner-img {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 150px;
+    } */
 }
 
 @media only screen and (max-device-width: 360px) {
@@ -786,9 +811,9 @@
     .contact-email {
         font-size: 25px;
     }
-    .banner-img-bg {
+    /* .banner-img-bg {
         height: 350px;
         z-index: 5;
-    }
+    } */
 }
 
