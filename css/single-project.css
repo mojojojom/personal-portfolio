@@ -134,7 +134,7 @@
 .features-box .features-title {
     padding: 10px 5px;
     color: var(--bg-1);
-    font-weight: bold;
+    font-weight: normal;
     background-color: var(--text);
 }
 
@@ -145,7 +145,14 @@
 .modal-content {
     border: none;
 }
-
+.banner-mobile {
+    z-index: 10;
+}
+.banner-mobile a {
+    color: var(--text);
+    font-size: var(--fs-sm);
+    font-weight: 600;
+}
 
 
 

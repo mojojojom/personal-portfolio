@@ -5,12 +5,14 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Jom Dalisaymo - Web Developer</title>
+        <meta name="description" content="This is my personal portfolio where I showcase my projects.">
+        <meta name="keywords" content="portfolio, website, web design">
+        <title>Sound Machine | Jom Dalisaymo - Web Developer</title>
         <!-- FAVICONS -->
-        <link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png">
-        <link rel="manifest" href="/icon/site.webmanifest">
+        <link rel="apple-touch-icon" sizes="180x180" href="../images/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../images/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../images/favicons/favicon-16x16.png">
+        <link rel="manifest" href="../images/favicons/site.webmanifest">
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js" integrity="sha512-Hqe3s+yLpqaBbXM6VA0cnj/T56ii5YjNrMT9v+us11Q81L0wzUG0jEMNECtugqNu2Uq5MSttCg0p4KK0kCPVaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <!-- CSS only -->
@@ -31,31 +33,70 @@
         <div class="navbar navbar-expand-lg navbar-light fixed-top" id="header-navbar">
 
             <div class="container py-3 d-flex" id="navbar-container">
-                <a href="#" class="navbar-logo raisonne">jom d.</a>
-                
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <a href="../index.html" class="navbar-logo raisonne">jom d.</a>
 
-                <div class="justify-content-end collapse navbar-collapse" id="navbarResponsive">
+                <!-- LARGE BROWSER NAV -->
+                <div class="justify-content-end header-menu d-none d-sm-none d-md-none d-lg-flex">
                     <ul class="navbar-nav ms-auto header-nav">
                         <li class="nav-item mx-3">
-                            <a class="nav-link raisonne" href="../index.html">home</a>
+                            <a class="nav-link raisonne" href="/index.html">home</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-link raisonne" href="../about.html">about</a>
+                            <a class="nav-link raisonne" href="/about.html">about</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-link raisonne" href="../project.html">projects</a>
+                            <a class="nav-link raisonne" href="/project.html">projects</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-link raisonne" href="../contact.html">contact me</a>
+                            <a class="nav-link raisonne" href="/contact.html">contact me</a>
                         </li>
                     </ul>
                 </div>
 
-            </div>
+                <!-- MOBILE BROWSER NAV -->
+                <div class="mobile-nav-menu d-block d-sm-block d-md-block d-lg-none" id="nav-menu">
 
+                    <div class="mobile-close-container d-flex w-100 justify-content-end px-0" id="nav-close">
+                        <img src="/images/icons/close-window.svg" alt="" class="mobile-close">
+                    </div>
+                    
+                    <ul class="mobile-nav-list list-unstyled px-0 pt-3">
+                        <li class="mobile-nav-item">
+                            <a href="/index.html" class="mobile-nav-link raisonne">home</a>
+                        </li>
+                        <li class="mobile-nav-item">
+                            <a href="/about.html" class="mobile-nav-link">about</a>
+                        </li>
+                        <li class="mobile-nav-item">
+                            <a href="/project.html" class="mobile-nav-link">projects</a>
+                        </li>
+                        <li class="mobile-nav-item">
+                            <a href="/contact.html" class="mobile-nav-link">contact me</a>
+                        </li>
+                    </ul>
+
+                    <ul class="list-unstyled position-absolute bottom-0 w-100 d-flex">
+                        <li class="banner-mobile nav-sm">
+                            <a href="https://www.instagram.com/mojijooom/" target="_blank" class="poppins text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="Follow me on Instagram">ig</a>
+                        </li>
+                        <li class="banner-mobile nav-sm">
+                            <a href="https://www.facebook.com/jom.dalisaymo.10" target="_blank" class="poppins text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="Follow me on Facebook">fb</a>
+                        </li>
+                        <li class="banner-mobile nav-sm">
+                            <a href="https://github.com/mojojojom" target="_blank" class="poppins text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="Follow me on GitHub">gh</a>
+                        </li>
+                        <li class="banner-mobile nav-sm">
+                            <a href="https://www.linkedin.com/in/jommel-dalisaymo-94b21414b" target="_blank" class="poppins text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="Follow me on LinkedIn">in</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="mobile-nav-toggle d-flex d-sm-flex d-md-flex d-lg-none" id="nav-toggle">
+                    <img src="/images/icons/category.svg" alt="" class="mobile-icon">
+                </div>
+
+            </div>
         </div>
 
         <!-- SINGLE PROJECT WRAPPER -->
@@ -85,7 +126,7 @@
                     <div class="col-12 col-sm-12 col-md-12 col-lg-6 pt-3 pt-sm-3 pt-md-3 pt-lg-0 position-relative">
                         <div class="single-description-container pb-3">
                             <p class="poppins single-stacks-title m-0 p-0 mb-2">PROJECT DESCRIPTION</p>
-                            <p class="single-description poppins m-0 p-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate quod, excepturi magnam earum quos asperiores assumenda doloremque velit facilis quisquam commodi pariatur amet nulla accusantium quas eum? Corporis, necessitatibus quisquam.</p>
+                            <p class="single-description poppins m-0 p-0">Sound Machine is a website that I created for a client during my OJT (Front-end). This website is an E-commerce site.</p>
                         </div>
                         <div class="single-btn-container d-flex d-inline mt-3">
                             <a href="https://soundmachine001.netlify.app" target="_blank" class="single-btn raisonne">view site<i class="fa-solid fa-arrow-right-long arrow"></i></a>
@@ -174,7 +215,7 @@
             <div class="container">
                 <div class="text-center">
                     <div class="footer-copyright-container">
-                        <p class="copyright poppins">© 2022 <a href="#" class="raisonne">jom d.</a> All Rights Reserved.</p>
+                        <p class="copyright poppins">© 2022 <a href="../index.html" class="raisonne">jom d.</a> All Rights Reserved.</p>
                     </div>
                     <div class="footer-sm-container">
                         <a href="https://www.instagram.com/mojijooom/" target="_blank" class="poppins text-decoration-none mx-2" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="Follow me on Instagram">ig</a>
