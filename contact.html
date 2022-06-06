@@ -140,21 +140,21 @@
                     <div class="col-12 col-sm-12 col-md-12 col-lg-8 pt-5 pt-sm-5 pt-md-3 pt-lg-0">
                         <p class="sprat contacts-connect p-0 m-0 pb-2 text-center">send me a message</p>
 
-                        <form action="" class=" pt-0 pt-sm-0 pt-md-0 pt-lg-3">
+                        <form action="" method="post" class=" pt-0 pt-sm-0 pt-md-0 pt-lg-3" name="contact" data-netlify="true">
                             <div class="contacts-form-title">
                                 <p class="sprat contacts-name p-0 m-0">name</p>
-                                <input name="name" type="text" class="form-control form-control-lg my-2 raisonne contacts-input" id="name" placeholder="enter your email here">
+                                <input name="name" type="text" class="form-control form-control-lg my-2 raisonne contacts-input" id="name" placeholder="enter your email here" required>
                             </div>
                             <div class="contacts-form-title">
                                 <p class="sprat contacts-name p-0 m-0">email</p>
-                                <input name="email" type="email" class="form-control form-control-lg my-2 raisonne contacts-input" id="email" placeholder="enter your email here">
+                                <input name="email" type="email" class="form-control form-control-lg my-2 raisonne contacts-input" id="email" placeholder="enter your email here"required>
                             </div>
                             <div class="contacts-form-title">
                                 <p class="sprat contacts-name p-0 m-0">message</p>
-                                <textarea name="message" type="message" class="form-control form-control-lg my-2 raisonne contacts-input" id="message" placeholder="enter your message here" rows="5"></textarea>
+                                <textarea name="message" type="message" class="form-control form-control-lg my-2 raisonne contacts-input" id="message" placeholder="enter your message here" rows="5" required></textarea>
                             </div>
                             <div class="contacts-btn-container pt-3 pb-5">
-                                <button class="contacts-btn sprat text-center">send</button>
+                                <button class="contacts-btn sprat text-center" type="submit">send</button>
                             </div>
                         </form>
 

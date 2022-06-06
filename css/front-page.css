@@ -406,6 +406,7 @@
     color: var(--text);
     font-size: var(--fs-title);
     font-weight: bolder;
+    filter: drop-shadow(-12px -12px 0px rgba(255, 255, 255, 0.2));
 }
 .about-dates {
     color: var(--text);
@@ -445,7 +446,7 @@
     transition: all ease 300ms;
     transform-origin: 50% 50%;
     transition: transform 300ms, filter 300ms ease-in-out;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
     cursor: pointer;
 }
 .about-stack-container img:hover {
@@ -468,7 +469,8 @@
     width: 100%;
     padding: 25px;
     border-radius: 10px;
-    box-shadow: 0 8px 24px rgb(27 27 27 / 15%);
+    /* box-shadow: 0 8px 24px rgb(27 27 27 / 15%); */
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
     margin-bottom: 3em;
     margin-top: -3em;
 }
@@ -515,6 +517,7 @@
     color: var(--text);
     font-size: var(--fs-title);
     font-weight: bolder;
+    filter: drop-shadow(-12px -12px 0px rgba(255, 255, 255, 0.2));
 }
 .project-dates {
     color: var(--text);

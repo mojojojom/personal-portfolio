@@ -26,7 +26,7 @@
     transition: all ease 300ms;
     transform-origin: 50% 50%;
     transition: transform 300ms, filter 300ms ease-in-out;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
 }
 .projects-img-container:hover img {
     /* transform: scale(1.5); */
