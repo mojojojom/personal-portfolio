@@ -137,9 +137,6 @@
                 </ul>
             </div>
             <div class="container h-100">
-                <!-- <div class="banner-img-cont">
-                    <img src="/images/banner-img.png" alt="" class="banner-img">
-                </div> -->
                 <!-- SIDEBAR SOCIAL MEDIA BIGGER SCREEN-->
                 <div class="banner-sm-container h-100 d-none d-sm-none d-md-none d-lg-flex">
 
@@ -163,8 +160,7 @@
             </div>
 
             <!-- BOTTOM SOCIAL MEDIA SMALLER SCREEN -->
-            <ul class="list-unstyled position-absolute bottom-0 w-100 text-center d-flex d-sm-flex d-md-flex d-lg-none justify-content-center" id="banner-socials">
-            <!-- <ul class="list-unstyled position-absolute bottom-0 w-100 text-center d-none justify-content-center"> -->
+            <ul class="list-unstyled position-absolute bottom-0 w-100 text-center d-flex d-sm-flex d-md-flex d-lg-none justify-content-center banner-sm-bottom">
                 <li class="banner-mobile px-3">
                     <a href="https://www.instagram.com/mojijooom/" target="_blank" class="poppins text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="Follow me on Instagram">ig</a>
                 </li>
@@ -188,8 +184,8 @@
                         <p class="poppins about-sub mb-0">ABOUT</p>
                         <p class="poppins about-title mb-0">GET TO KNOW ME</p>
                     </div>
-                    <div class="col-5 d-none d-sm-none d-md-block d-lg-block align-self-center"><hr></div>
-                    <div class="col-4 col-sm-4 col-md-2 col-lg-2 align-self-center text-end"><p class="poppins mb-0 project-dates">WHO AM I</p></div>
+                    <div class="col-5 d-none d-sm-none d-md-block d-lg-block align-self-center about-hr"><hr></div>
+                    <div class="col-4 col-sm-4 col-md-2 col-lg-2 align-self-center text-end"><p class="poppins mb-0 about-dates">WHO AM I</p></div>
                 </div>
                 <div class="row pt-3">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-6 about-overview">
@@ -256,7 +252,7 @@
                     <div class="box">
                         <p class="raisonne skill-title mb-0">skills &<br>expertise</p>
                         <div class="row pt-3 pt-0 pt-sm-0 pt-md-0 pt-lg-3">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 mt-4">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 mt-4 skill-left">
                                 <div class="skill-icon-container text-center">
                                     <img src="/images/noun-website-design-3502816.svg" alt="" class="skill-icon">
                                 </div>
@@ -265,7 +261,7 @@
                                 <p class="skill-desc poppins my-3">I plan, design, build, test and maintain scalable 
                                     front end web applications.</p>
                             </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 mt-4">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 mt-4 skill-right">
                                 <div class="skill-icon-container text-center">
                                     <img src="/images/noun-programming-2237743.svg" alt="" class="skill-icon">
                                 </div>
@@ -286,13 +282,13 @@
                         <p class="poppins project-sub mb-0">FEATURED PROJECTS</p>
                         <p class="poppins project-title mb-0">RECENT WORKS</p>
                     </div>
-                    <div class="col-5 d-none d-sm-none d-md-block d-lg-block align-self-center"><hr></div>
+                    <div class="col-5 d-none d-sm-none d-md-block d-lg-block align-self-center project-hr"><hr></div>
                     <div class="col-4 col-sm-4 col-md-2 col-lg-2 align-self-center text-end"><p class="poppins mb-0 project-dates">2021 - 2022</p></div>
                 </div>
                 <div class="project-items pt-5">
                     <div class="row">
 
-                        <div class="col-12 project-items-container my-3 p-0">
+                        <div class="col-12 project-items-container my-3 p-0 project-first projects">
                             <div class="project-img-container">
                                 <a href="/singles/portfolio.html">
                                     <div class="overlay"></div>
@@ -303,7 +299,7 @@
                             </div>
                         </div>
 
-                        <div class="col-12 project-items-container my-3 p-0">
+                        <div class="col-12 project-items-container my-3 p-0 project-second projects">
                             <div class="project-img-container">
                                 <a href="/singles/callees.html">
                                     <div class="overlay"></div>
@@ -314,7 +310,7 @@
                             </div>
                         </div>
 
-                        <div class="col-12 project-items-container my-3 p-0">
+                        <div class="col-12 project-items-container my-3 p-0 project-third projects">
                             <div class="project-img-container">
                                 <a href="/singles/sound-machine.html">
                                     <div class="overlay"></div>
@@ -327,7 +323,7 @@
 
                     </div>
                     
-                    <div class="text-center py-3 py-sm-3 py-md-5 py-lg-5">
+                    <div class="text-center py-3 py-sm-3 py-md-5 py-lg-5 project-btn-container">
                         <a href="/project.html" class="project-btn raisonne text-decoration-none">view all works</a>
                     </div>
 
@@ -340,11 +336,11 @@
             <div class="container h-100">
                 <div class="row d-flex align-items-center">
                     <div class="col-12 col-sm-12 col-md-3 col-lg-5"><p class="raisonne contact-title">let's start<br><span class="sprat">a project</span></p></div>
-                    <div class="col-md-4 col-lg-5 d-none d-sm-none d-md-block d-lg-block "><hr></div>
+                    <div class="col-md-4 col-lg-5 d-none d-sm-none d-md-block d-lg-block contact-hr"><hr></div>
                     <div class="col-12 col-sm-12 col-md-5 col-lg-2 text-start text-sm-start text-md-end text-lg-end"><p class="poppins contact-sub mt-4">it’s time to stop scrolling. let’s create something.</p></div>
                 </div>
                 
-                <div class="d-flex justify-content-center d-inline my-5">
+                <div class="d-flex justify-content-center d-inline my-5 contact-email-container">
                     <a href="mailto:dalisaymo36@gmail.com" class="contact-email playfair text-center text-decoration-none">dalisaymo36@gmail.com</a>
                 </div>
             </div>
@@ -353,7 +349,7 @@
 
         <!-- FOOTER -->
         <footer class="footer-wrapper">
-            <div class="container">
+            <div class="container footer-content">
                 <div class="text-center">
                     <div class="footer-copyright-container">
                         <p class="copyright poppins">© 2022 <a href="/index.html" class="raisonne">jom d.</a> All Rights Reserved.</p>
@@ -391,6 +387,8 @@
                     .catch((error) => alert(error));
             };
         </script>
+        <!-- Scroll Reveal -->
+        <script src="https://unpkg.com/scrollreveal"></script>
         <script src="script/script.js"></script>
     </body>
 

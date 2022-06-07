@@ -602,6 +602,7 @@
     font-size: var(--fs-100);
     line-height: 0.8;
     margin: 0;
+    filter: drop-shadow(-12px -12px 0px rgba(255, 255, 255, 0.2));
 }
 .contact-sub {
     color: var(--text);

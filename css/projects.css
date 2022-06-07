@@ -6,6 +6,7 @@
 .projects-heading {
     color: var(--text);
     font-size: var(--fs-100);
+    filter: drop-shadow(-12px -12px 0px rgba(255, 255, 255, 0.2));
 }
 .projects-col {
     height: 320px;
