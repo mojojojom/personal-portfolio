@@ -1,6 +1,17 @@
 .abouts-wrapper {
     max-width: 2560px;
     background-color: var(--bg-1);
+    min-height: 100vh;
+}
+.abouts-img-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.abouts-img {
+    height: 100%;
+    width: 100%;
 }
 .abouts-title {
     color: var(--text);
@@ -65,27 +76,32 @@
 
 
 
+
+
+@media only screen and (min-width: 1200px) {
+    /* styles for browsers larger than 1200px; */
+   
+}
+@media only screen and (min-width: 960px) {
+    /* styles for browsers larger than 960px; */
+
+}
+@media only screen and (max-device-width: 768px) {
+    /* styles for mobile browsers smaller than 768px; */
+    .abouts-title {
+        font-size: var(--fs-title);
+    }
+}
+@media only screen and (max-device-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; */
+    .abouts-title {
+        font-size: var(--fs-25);
+    }
+}
 @media only screen and (max-device-width: 360px) {
     /* styles for mobile browsers smaller than 360px; */
 
 }
 
-@media only screen and (max-device-width: 480px) {
-    /* styles for mobile browsers smaller than 480px; */
 
-}
 
-@media only screen and (max-device-width: 768px) {
-    /* styles for mobile browsers smaller than 768px; */
-
-}
-
-@media only screen and (min-width: 960px) {
-     /* styles for browsers larger than 960px; */
-
-}
-
-@media only screen and (min-width: 1200px) {
-     /* styles for browsers larger than 1200px; */
-    
-}
