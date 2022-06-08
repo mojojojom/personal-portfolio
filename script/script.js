@@ -90,61 +90,281 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 
 
 
-    const sr = ScrollReveal({
-        duration:1000,
-        reset: true
+
+ScrollReveal(
+    {
+        delay: 300,
+        distance: '0px',
+        easing: 'ease',
+        origin: 'bottom',
+        reset: true,
     });
 
-    sr.reveal('.projects',{
 
-    }, 500);
+ScrollReveal().reveal('.navbar',
+{
+    delay: 300,
+    distance: '0px',
+    easing: 'ease',
+    origin: 'top',
+    reset: true,
+});
+ScrollReveal().reveal('.banner-sm-container',
+{
+    delay: 300,
+    distance: '0px',
+    easing: 'ease',
+    origin: 'left',
+    reset: true,
+});
+ScrollReveal().reveal('.banner-sm-bottom',
+{
+    delay: 300,
+    distance: '0px',
+    easing: 'ease',
+    origin: 'bottom',
+    reset: true,
+});
 
-    sr.reveal('.contacts-social-links-container',{
-        delay: 600
-    },500);
+ScrollReveal().reveal('.about-sub',
+{
+    delay: 200,
+    distance: '0px',
+    easing: 'ease',
+    origin: 'left',
+    reset: true,
+});
+ScrollReveal().reveal('.about-title',
+{
+    delay: 200,
+    distance: '0px',
+    easing: 'ease',
+    origin: 'left',
+    reset: true,
+});
+ScrollReveal().reveal('.about-hr',
+{
+    delay: 200,
+    distance: '0px',
+    easing: 'ease',
+    origin: 'top',
+    reset: true,
+});
+ScrollReveal().reveal('.about-dates',
+{
+    delay: 200,
+    distance: '0px',
+    easing: 'ease',
+    origin: 'right',
+    reset: true,
+});
+ScrollReveal().reveal('.about-overview',
+{
+    delay: 300,
+    distance: '0px',
+    easing: 'ease',
+    origin: 'left',
+    reset: true,
+});
+ScrollReveal().reveal('.about-stacks',
+{
+    delay: 300,
+    distance: '0px',
+    easing: 'ease',
+    origin: 'right',
+    reset: true,
+});
+ScrollReveal().reveal('.about-btn-container',
+{
+    delay: 200,
+    distance: '0px',
+    easing: 'ease',
+    origin: 'bottom',
+    reset: true,
+});
 
-ScrollReveal().reveal('.banner-sm-container',{delay:  300});
-ScrollReveal().reveal('.banner-sm-bottom',{delay:  300});
+ScrollReveal().reveal('.skill-title',
+{
+    delay: 200,
+    distance: '0px',
+    easing: 'ease',
+    origin: 'top',
+    reset: true,
+});
+ScrollReveal().reveal('.skill-left',
+{
+    delay: 400,
+    distance: '0px',
+    easing: 'ease',
+    origin: 'left',
+    reset: true,
+});
+ScrollReveal().reveal('.skill-right',
+{
+    delay: 400,
+    distance: '0px',
+    easing: 'ease',
+    origin: 'right',
+    reset: true,
+});
 
-ScrollReveal().reveal('.about-sub',{delay:  200});
-ScrollReveal().reveal('.about-title',{delay: 200});
-ScrollReveal().reveal('.about-hr',{delay: 300});
-ScrollReveal().reveal('.about-dates',{delay: 400});
-ScrollReveal().reveal('.about-overview',{delay: 500});
-ScrollReveal().reveal('.about-stacks',{delay: 600});
-ScrollReveal().reveal('.about-btn-container',{delay: 700});
+ScrollReveal().reveal('.project-sub',
+{
+    delay: 200,
+    distance: '0px',
+    easing: 'ease',
+    origin: 'left',
+    reset: true,
+});
+ScrollReveal().reveal('.project-title',
+{
+    delay: 200,
+    distance: '0px',
+    easing: 'ease',
+    origin: 'left',
+    reset: true,
+});
+ScrollReveal().reveal('.project-hr',
+{
+    delay: 200,
+    distance: '0px',
+    easing: 'ease',
+    origin: 'top',
+    reset: true,
+});
+ScrollReveal().reveal('.project-dates',
+{
+    delay: 200,
+    distance: '0px',
+    easing: 'ease',
+    origin: 'right',
+    reset: true,
+});
+ScrollReveal().reveal('.project-first',
+{
+    delay: 300,
+    distance: '0px',
+    easing: 'ease',
+    origin: 'left',
+    reset: true,
+});
+ScrollReveal().reveal('.project-second',
+{
+    delay: 400,
+    distance: '0px',
+    easing: 'ease',
+    origin: 'right',
+    reset: true,
+});
+ScrollReveal().reveal('.project-third',
+{
+    delay: 500,
+    distance: '0px',
+    easing: 'ease',
+    origin: 'left',
+    reset: true,
+});
+ScrollReveal().reveal('.project-btn-container',
+{
+    delay: 600,
+    distance: '0px',
+    easing: 'ease',
+    origin: 'bottom',
+    reset: true,
+});
 
-ScrollReveal().reveal('.skill-title',{delay: 200});
-ScrollReveal().reveal('.skill-left',{delay: 400});
-ScrollReveal().reveal('.skill-right',{delay: 500});
+ScrollReveal().reveal('.contact-title',
+{
+    delay: 200,
+    distance: '0px',
+    easing: 'ease',
+    origin: 'left',
+    reset: true,
+});
+ScrollReveal().reveal('.contact-hr',
+{
+    delay: 200,
+    distance: '0px',
+    easing: 'ease',
+    origin: 'top',
+    reset: true,
+});
+ScrollReveal().reveal('.contact-sub',
+{
+    delay: 200,
+    distance: '0px',
+    easing: 'ease',
+    origin: 'right',
+    reset: true,
+});
+ScrollReveal().reveal('.contact-email-container',
+{
+    delay: 400,
+    distance: '0px',
+    easing: 'ease',
+    origin: 'bottom',
+    reset: true,
+});
 
-ScrollReveal().reveal('.project-sub',{delay:  200});
-ScrollReveal().reveal('.project-title',{delay: 200});
-ScrollReveal().reveal('.project-hr',{delay: 300});
-ScrollReveal().reveal('.project-dates',{delay: 400});
-ScrollReveal().reveal('.project-btn-container',{delay: 800});
+ScrollReveal().reveal('.footer-content',
+{
+    delay: 600,
+    distance: '0px',
+    easing: 'ease',
+    origin: 'bottom',
+    reset: true,
+});
 
-ScrollReveal().reveal('.contact-title',{delay: 200});
-ScrollReveal().reveal('.contact-hr',{delay: 300});
-ScrollReveal().reveal('.contact-sub',{delay:  400});
-ScrollReveal().reveal('.contact-email-container',{delay:  500});
+// SINGLE PAGE
 
-ScrollReveal().reveal('.footer-content',{delay:  500});
+ScrollReveal().reveal('.projects-heading',
+{
+    delay: 400
+});
+ScrollReveal().reveal('.projects-title',
+{
+    delay: 400
+});
+ScrollReveal().reveal('.projects-date',
+{
+    delay: 500
+});
+ScrollReveal().reveal('.projects-description-container',
+{
+    delay: 600
+});
+ScrollReveal().reveal('.projects-link',
+{
+    delay: 500
+});
+ScrollReveal().reveal('.projects-img-container',
+{delay: 700
+});
 
-
-
-ScrollReveal().reveal('.projects-heading',{delay: 400});
-ScrollReveal().reveal('.projects-title',{delay: 400});
-ScrollReveal().reveal('.projects-date',{delay: 500});
-ScrollReveal().reveal('.projects-description-container',{delay: 600});
-ScrollReveal().reveal('.projects-link-container',{delay: 600});
-ScrollReveal().reveal('.projects-img-container',{delay: 700});
-
-ScrollReveal().reveal('.contacts-title',{delay: 200});
-ScrollReveal().reveal('.contacts-hr',{delay: 300});
-ScrollReveal().reveal('.contacts-sub',{delay: 400});
-ScrollReveal().reveal('.contacts-connect',{delay: 500});
-ScrollReveal().reveal('.contacts-form',{delay: 600});
+ScrollReveal().reveal('.contacts-title',
+{
+    delay: 200
+});
+ScrollReveal().reveal('.contacts-hr',
+{
+    delay: 300
+});
+ScrollReveal().reveal('.contacts-sub',
+{
+    delay: 400
+});
+ScrollReveal().reveal('.contacts-connect',
+{
+    delay: 500
+});
+ScrollReveal().reveal('.contacts-social-links-container',
+{
+    delay: 600
+});
+ScrollReveal().reveal('.contacts-form',
+{
+    delay: 700
+});
 
 
 
@@ -162,5 +382,6 @@ ScrollReveal().reveal('.contacts-form',{delay: 600});
 var loader = document.getElementById('loader-bg');
 window.addEventListener("load", function(){
     loader.style.display = "none";
+    $('body').removeClass('loading');
 });
 

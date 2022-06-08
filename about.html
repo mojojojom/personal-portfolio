@@ -7,6 +7,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="This is my personal portfolio where I showcase my projects.">
         <meta name="keywords" content="portfolio, website, web design">
+        <meta name="author" content="Jommel Dalisaymo">
+        <meta name="copyright" content="© 2022 by Jommel Dalisaymo">
+        <meta name="robots" content="index, follow">
+        <meta name="rating" content="safe for kids">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Jom Dalisaymo | Web Developer">
+        <meta property="og:url" content="https://jomdalisaymo.netlify.app">
+        <meta property="og:image" content="https://jomdalisaymo.netlify.app/images/banner-mobile.png">
+        <meta property="og:description" content="jom d. is a Portfolio website I made for myself to showcase my projects.">
         <title>About Me | Jom Dalisaymo - Web Developer</title>
         <!-- FAVICONS -->
         <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
@@ -25,9 +34,10 @@
         <link rel="stylesheet" href="./css/about.css">
         <link rel="stylesheet" href="./css/footer.css">
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/dev.css">
     </head>
 
-    <body>
+    <body class="loading">
 
         <!-- PRELOADER -->
         <div class="loader-bg" id="loader-bg">
@@ -118,30 +128,37 @@
 
         <!-- ABOUT WRAPPER -->
         <div class="abouts-wrapper py-5">
+            <div class="abouts-wrapper-left-bg d-none d-sm-none d-md-block d-lg-block"></div>
             <div class="container">
-
-                <div class="abouts-title-container d-flex justify-content-center pt-5">
-                    <p class="abouts-title raisonne text-center">Page Under Construction</p>
-                </div>
-                <div class="abouts-img-container">
-                    <img src="/images/about-construction.svg" alt="" class="abouts-img">
-                </div>
-                <!-- <div class="abouts-title-container">
-                    <p class="abouts-title raisonne pt-5 pt-sm-5 pt-md-3 pt-lg-3">about me</p>
+                <div class="abouts-title-container pt-3">
+                    <p class="abouts-title raisonne pt-4 pt-sm-4 pt-md-3 pt-lg-3 m-0">about me</p>
                 </div>
 
-                <div class="row">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                <div class="row d-flex justify-content-center align-items-center pb-5">
+                    <div class="col-12 col-sm-12 col-md-8 col-lg-6 mb-5">
                         <div class="poppins abouts-right-container">
-                            <p class="poppins abouts-right-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio exercitationem alias at dolore? Aspernatur numquam tempora vero, harum, vitae magni ratione architecto sapiente dolores eius libero modi et odit placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam itaque officiis, veniam amet rerum quia ab dolore eos voluptates.<br>Voluptates earum expedita cupiditate quas nobis tempora repellendus officia nulla veritatis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores eaque dolore id aliquid laboriosam aut perspiciatis magni doloribus fugiat ipsam corrupti, molestias dignissimos illum sed incidunt eius debitis, cupiditate quas? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore iste numquam ab nemo velit, ullam error accusamus distinctio optio? Quas velit praesentium odio vel maiores aliquam magnam, repudiandae autem facere.<br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis dolores repellat provident, eveniet id voluptas omnis alias pariatur officia at, eaque facilis impedit, reiciendis cum exercitationem minima quaerat quia necessitatibus!</p>
+                            <p class="poppins abouts-right-name m-0 p-0">I’m Jommel Dalisaymo</p>
+                            <p class="playfair abouts-right-title m-0 p-0">Web Designer / Web Developer</p>
+                            <p class="poppins abouts-right-desc m-0 pt-3 d-none d-sm-none d-md-block d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eos, officia id minus aliquam vitae. Quia optio iste et sunt placeat ut, dicta ea numquam consequatur nam dolore velit distinctio.</p>
+
+                            <div class="abouts-right-btn-container pt-5 d-none d-sm-none d-md-block d-lg-block">
+                                <a href="/project.html" class="abouts-right-btn raisonne">view projects</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-                        <div class="abouts-banner-img-container d-flex justify-content-center">
-                            <div class="abouts-banner-img"></div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-6 abouts-left mb-sm-5">
+                        <div class="abouts-left-container">
+                            <div class="abouts-left-img">
+                                <img src="/images/about-img.jpg" class="abouts-img" alt="">
+                            </div>
+                            <p class="poppins abouts-right-desc m-0 pt-3 d-block d-sm-block d-md-none d-lg-none text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eos, officia id minus aliquam vitae. Quia optio iste et sunt placeat ut, dicta ea numquam consequatur nam dolore velit distinctio.</p>
+
+                            <div class="abouts-right-btn-container d-flex justify-content-center pt-3 d-block d-sm-block d-md-none d-lg-none">
+                                <a href="/project.html" class="abouts-right-btn raisonne">view projects</a>
+                            </div>
                         </div>
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
 
@@ -177,8 +194,28 @@
 
         </div> -->
 
-
-
+        <div class="dev-wrapper py-5">
+            <div class="container pt-5">
+                <div class="row d-flex justify-content-center align-items-center mt-5 mt-sm-5 mt-md-0 mt-lg-0">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-5">
+                        <div class="dev-title-container">
+                            <div class="dev-img-container d-flex justify-content-center align-items-center">
+                                <img src="/images/logo/LOGO_WHITE.svg" class="dev-title-img"></img>
+                                <p class="raisonne dev-img-name">jom d.</p>
+                            </div>
+                            <p class="dev-sub playfair m-0 text-center">Woops!</p>
+                            <p class="popppins dev-title m-0">PAGE UNDER DEVELOPMENT</p>
+                            <p class="dev-sub-2 poppins m-0 text-center">This page is still under development, the developer needs more sweets and coffee breaks. Get back to us soon!</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="dev-img-container">
+                            <img src="/images/about-construction.svg" alt="" srcset="" class="dev-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- FOOTER -->
         <footer class="footer-wrapper">

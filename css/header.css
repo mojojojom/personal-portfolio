@@ -35,6 +35,9 @@
 .nav-link:hover {
     color: var(--text-hover);
 }
+.nav-link:visited {
+    color: var(--text);
+}
 .header-navscroll{
     background-color: var(--bg-1);
     padding: 0;

@@ -27,10 +27,8 @@
     transition: all ease 300ms;
     transform-origin: 50% 50%;
     transition: transform 300ms, filter 300ms ease-in-out;
-    /* filter: grayscale(100%); */
 }
 .projects-img-container:hover img {
-    /* transform: scale(1.5); */
     filter: brightness(100%);
     transform: scale(1.1);
     filter: grayscale(0);
@@ -165,6 +163,7 @@
     /* styles for mobile browsers smaller than 480px; */
     .projects-heading {
         font-size: 50px;
+        filter: drop-shadow(-6px -5px 0px rgba(255, 255, 255, 0.2));
     }
     .projects-title {
         font-size: 25px;

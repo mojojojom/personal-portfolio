@@ -35,15 +35,6 @@
     --skeleton: #e4e6eb;
     --form-shadow-color: #ffffff30;
 
-    /* --fs-100: 6.25em;
-    --fs-email: 3.75em;
-    --fs-proj: 2.8125em;
-    --fs-title: 2.5em;
-    --fs-contact: 1.875em;
-    --fs-logo: 1.375em;
-    --fs-md: 1.25em;
-    --fs-sm: 1.125em;
-    --fs-nav: 1em; */
     --fs-100: 100px;
     --fs-80: 80px;
     --fs-email: 60px;
@@ -100,15 +91,17 @@ hr {
 }
 
 /* preloader */
+.loading {
+    overflow: hidden;
+    pointer-events: none;
+    user-select: none;
+}
 .loader-bg {
     position: fixed;
     z-index: 999999;
     height: 100%;
     width: 100%;
     background-color: var(--text);
-    overflow: hidden;
-    pointer-events: none;
-    user-select: none;
 }
 .loader {
     height: 100%;
@@ -278,5 +271,4 @@ hr {
     }
 }
 
-
-
+/* 769-991 */
