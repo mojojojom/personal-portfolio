@@ -98,6 +98,74 @@ a {
 hr {
     border-top: 2px solid var(--text);
 }
+
+/* preloader */
+.loader-bg {
+    position: fixed;
+    z-index: 999999;
+    height: 100%;
+    width: 100%;
+    background-color: var(--text);
+    overflow: hidden;
+    pointer-events: none;
+}
+.loader {
+    height: 100%;
+    width: 100%;
+}
+.loader-img {
+    height: 150px;
+    animation: zoom-out 500ms ease;
+}
+@keyframes zoom-out {
+    0% {
+        transform: scale(20);
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.9;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.loader-text-container {
+    height: 100%;
+    width: 100%;
+}
+.loader-text {
+    font-size: var(--fs-md);
+    font-weight: 500;
+    letter-spacing: 4px;
+    margin-top: -1em;
+    animation: loading 1.2s infinite;
+}
+@keyframes loading {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
 .arrow {
     color: var(--text);
     margin-left: 5px;

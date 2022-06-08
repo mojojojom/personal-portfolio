@@ -748,12 +748,15 @@
     } */
     .about-title {
         font-size: 20px;
+        filter: drop-shadow(-6px -5px 0px rgba(255, 255, 255, 0.2));
     }
+
     .skill-container {
         padding: 20px;
     }
     .skill-title {
         font-size: 30px;
+
     }
     .skill-wrapper .design {
         font-size: 20px;
@@ -770,6 +773,7 @@
     }
     .project-title {
         font-size: 20px;
+        filter: drop-shadow(-6px -5px 0px rgba(255, 255, 255, 0.2));
     }
     .project-dates {
         font-size: 12px;
@@ -784,6 +788,7 @@
     }
     .contact-title {
         font-size: 30px;
+        filter: drop-shadow(-6px -5px 0px rgba(255, 255, 255, 0.2));
     }
     .contact-name {
         font-size: 18px;

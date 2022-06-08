@@ -148,3 +148,10 @@ ScrollReveal().reveal('.contacts-hr',{delay: 300});
 ScrollReveal().reveal('.contacts-sub',{delay: 400});
 ScrollReveal().reveal('.contacts-connect',{delay: 500});
 ScrollReveal().reveal('.contacts-form',{delay: 600});
+
+
+
+
+setTimeout(function() {
+    $('.loader-bg').fadeToggle();
+},1500);
