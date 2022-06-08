@@ -122,9 +122,6 @@ ScrollReveal().reveal('.project-sub',{delay:  200});
 ScrollReveal().reveal('.project-title',{delay: 200});
 ScrollReveal().reveal('.project-hr',{delay: 300});
 ScrollReveal().reveal('.project-dates',{delay: 400});
-// ScrollReveal().reveal('.project-first',{delay: 500});
-// ScrollReveal().reveal('.project-second',{delay: 600});
-// ScrollReveal().reveal('.project-third',{delay: 700});
 ScrollReveal().reveal('.project-btn-container',{delay: 800});
 
 ScrollReveal().reveal('.contact-title',{delay: 200});
@@ -152,6 +149,18 @@ ScrollReveal().reveal('.contacts-form',{delay: 600});
 
 
 
-setTimeout(function() {
-    $('.loader-bg').fadeToggle();
-},1500);
+// setTimeout(function() {
+//     $('.loader-bg').fadeToggle();
+// },1500);
+
+// var loader = document.getElementById("loader-bg");
+
+// window.addEventListener("load", function(){ 
+//       window.onscroll = function(){window.scrollTo(0,0)};
+// })
+
+var loader = document.getElementById('loader-bg');
+window.addEventListener("load", function(){
+    loader.style.display = "none";
+});
+

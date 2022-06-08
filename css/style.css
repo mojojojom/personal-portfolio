@@ -108,10 +108,14 @@ hr {
     background-color: var(--text);
     overflow: hidden;
     pointer-events: none;
+    user-select: none;
 }
 .loader {
     height: 100%;
     width: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    user-select: none;
 }
 .loader-img {
     height: 150px;

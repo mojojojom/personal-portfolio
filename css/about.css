@@ -23,15 +23,14 @@
     font-size: var(--fs-sm);
     font-weight: 300;
 }
-.abouts-banner-img-container {
+.abouts-img-container {
     height: 500px;
     width: 100%;
     position: relative;
-    background-color: var(--text);
 }
 .abouts-banner-img {
     width: 80%;
-    height: 400px;
+    height: 100%;
     position: absolute;
     top: -50px;
     background-color: var(--text-hover);
@@ -96,6 +95,11 @@
     /* styles for mobile browsers smaller than 480px; */
     .abouts-title {
         font-size: var(--fs-25);
+    }
+    .abouts-img-container {
+        height: 300px;
+        width: 100%;
+        position: relative;
     }
 }
 @media only screen and (max-device-width: 360px) {
