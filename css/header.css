@@ -15,8 +15,8 @@
     transition: all ease-in-out 300ms;
 }
 .navbar-logo {
-    font-size: var(--fs-logo);
-    font-weight: bolder;
+    font-size: var(--fs-sm);
+    font-weight: 300;
     text-decoration: none;
     color: var(--text);
     transition: all ease-in-out 300ms;

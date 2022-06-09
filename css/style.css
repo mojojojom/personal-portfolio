@@ -112,9 +112,9 @@ hr {
 }
 .loader-img {
     height: 150px;
-    animation: zoom-out 500ms ease;
+    /* animation: zoom-out 500ms ease; */
 }
-@keyframes zoom-out {
+/* @keyframes zoom-out {
     0% {
         transform: scale(20);
         opacity: 0;
@@ -132,7 +132,7 @@ hr {
         transform: scale(1);
         opacity: 1;
     }
-}
+} */
 .loader-text-container {
     height: 100%;
     width: 100%;

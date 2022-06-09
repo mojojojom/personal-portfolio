@@ -26,6 +26,7 @@
 .dev-img-name {
     color: var(--text);
     font-size: var(--fs-contact);
+    font-weight: 300;
 }
 .dev-sub,
 .dev-sub-2 {

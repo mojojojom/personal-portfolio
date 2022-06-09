@@ -53,8 +53,9 @@
 .projects-link {
     color: var(--text);
     font-size: var(--fs-nav);
-    position: absolute;
-    bottom: 0;
+    display: inline-block;
+    /* position: absolute;
+    bottom: 0; */
     transition: all ease-in-out 300ms;
 }
 .projects-link::after {
